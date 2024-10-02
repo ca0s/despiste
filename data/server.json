@@ -1,0 +1,9 @@
+{
+	"ca": "data/certs/ca.pem",
+	"cert": "data/certs/server.pem",
+
+	"node_address": "127.0.0.1:51080",
+	"tracker_address": "127.0.0.1:8000",
+
+	"upstreams": ["proxy1", "proxy2"]
+}

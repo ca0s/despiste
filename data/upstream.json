@@ -1,0 +1,8 @@
+{
+	"ca": "data/certs/ca.pem",
+	"cert": "data/certs/proxy1.pem",
+
+	"node_address": "127.0.0.1:41080",
+	"tracker_id": "server",
+	"tracker_url": "https://127.0.0.1:8000"
+}

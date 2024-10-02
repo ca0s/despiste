@@ -1,0 +1,16 @@
+[Unit]
+Description=despiste upstream
+After=network.target
+StartLimitIntervalSec=0
+StartLimitBurst=5
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=despiste
+WorkingDirectory=/opt/despiste
+ExecStart=/opt/despiste/upstream
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,7 @@
+*.pem
+/server
+/upstream
+/authority
+/despiste
+/data/certs/*
+.DS_Store
